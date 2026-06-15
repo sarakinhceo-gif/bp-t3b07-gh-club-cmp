@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b07-gh-club-cmp/</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b07-gh-club-cmp/about.html</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://sarakinhceo-gif.github.io/bp-t3b07-gh-club-cmp/posts/interview-001-1tbn62l.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b07-gh-club-cmp/posts/juice-1.html</loc>
@@ -49,8 +55,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://sarakinhceo-gif.github.io/bp-t3b07-gh-club-cmp/posts/t3link-002-1tbn62l.html</loc>
+    <lastmod>2026-06-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://sarakinhceo-gif.github.io/bp-t3b07-gh-club-cmp/feed.xml</loc>
-    <lastmod>2026-06-11</lastmod>
+    <lastmod>2026-06-15</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
