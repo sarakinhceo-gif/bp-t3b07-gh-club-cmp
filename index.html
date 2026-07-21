@@ -28,134 +28,163 @@
     <meta name="twitter:image" content="https://t3b07-gh-club-cmp.vercel.app/twitter-image.svg">
 
     <!-- JSON-LD Schema -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "AirRank - 공항 클럽 비교",
-        "alternateName": "AirRank 공항 라운지 리뷰",
-        "url": "https://t3b07-gh-club-cmp.vercel.app/",
-        "description": "전 세계 주요 공항 클럽과 라운지를 비교 분석한 전문 데이터 기반 가이드.",
-        "inLanguage": "ko-KR",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://t3b07-gh-club-cmp.vercel.app/search?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        },
-        "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+82-10-6279-0862",
-            "contactType": "customer service",
-            "areaServed": "KR",
-            "availableLanguage": ["Korean", "English"]
-        },
-        "mainEntity": {
-            "@type": "ItemList",
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": 1,
-                    "item": {
-                        "@type": "Airport",
-                        "name": "인천국제공항",
-                        "identifier": "ICN",
-                        "containsPlace": {
-                            "@type": "AirportLounge",
-                            "name": "마티나 라운지",
-                            "review": {
-                                "@type": "Review",
-                                "reviewRating": {
-                                    "@type": "Rating",
-                                    "ratingValue": "4.3",
-                                    "bestRating": "5.0"
-                                },
-                                "author": {
-                                    "@type": "Person",
-                                    "name": "김비즈니스"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 2,
-                    "item": {
-                        "@type": "Airport",
-                        "name": "나리타 국제공항",
-                        "identifier": "NRT",
-                        "containsPlace": {
-                            "@type": "AirportLounge",
-                            "name": "ANA 라운지",
-                            "review": {
-                                "@type": "Review",
-                                "reviewRating": {
-                                    "@type": "Rating",
-                                    "ratingValue": "4.6",
-                                    "bestRating": "5.0"
-                                },
-                                "author": {
-                                    "@type": "Person",
-                                    "name": "이일등석"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 3,
-                    "item": {
-                        "@type": "Airport",
-                        "name": "창이 국제공항",
-                        "identifier": "SIN",
-                        "containsPlace": {
-                            "@type": "AirportLounge",
-                            "name": "실버크리스 라운지",
-                            "review": {
-                                "@type": "Review",
-                                "reviewRating": {
-                                    "@type": "Rating",
-                                    "ratingValue": "4.8",
-                                    "bestRating": "5.0"
-                                },
-                                "author": {
-                                    "@type": "Person",
-                                    "name": "박여행자"
-                                }
-                            }
-                        }
-                    }
-                },
-                {
-                    "@type": "ListItem",
-                    "position": 4,
-                    "item": {
-                        "@type": "Airport",
-                        "name": "히드로 공항",
-                        "identifier": "LHR",
-                        "containsPlace": {
-                            "@type": "AirportLounge",
-                            "name": "콩코드 룸",
-                            "review": {
-                                "@type": "Review",
-                                "reviewRating": {
-                                    "@type": "Rating",
-                                    "ratingValue": "4.9",
-                                    "bestRating": "5.0"
-                                },
-                                "author": {
-                                    "@type": "Person",
-                                    "name": "최퍼스트"
-                                }
-                            }
-                        }
-                    }
-                }
-            ]
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AirRank - 공항 클럽 비교",
+  "alternateName": "AirRank 공항 라운지 리뷰",
+  "url": "https://airport-club-note.mapo-room-guide.xyz/",
+  "description": "전 세계 주요 공항 클럽과 라운지를 비교 분석한 전문 데이터 기반 가이드.",
+  "inLanguage": "ko-KR",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://airport-club-note.mapo-room-guide.xyz/search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+82-10-6279-0862",
+    "contactType": "customer service",
+    "areaServed": "KR",
+    "availableLanguage": [
+      "Korean",
+      "English"
+    ]
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Airport",
+          "name": "인천국제공항",
+          "identifier": "ICN",
+          "containsPlace": {
+            "@type": "AirportLounge",
+            "name": "마티나 라운지",
+            "review": {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.3",
+                "bestRating": "5.0"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "김비즈니스"
+              }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.3,
+              "reviewCount": 1,
+              "bestRating": 5,
+              "worstRating": 1
+            }
+          }
         }
-    }
-    </script>
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Airport",
+          "name": "나리타 국제공항",
+          "identifier": "NRT",
+          "containsPlace": {
+            "@type": "AirportLounge",
+            "name": "ANA 라운지",
+            "review": {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.6",
+                "bestRating": "5.0"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "이일등석"
+              }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.6,
+              "reviewCount": 1,
+              "bestRating": 5,
+              "worstRating": 1
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Airport",
+          "name": "창이 국제공항",
+          "identifier": "SIN",
+          "containsPlace": {
+            "@type": "AirportLounge",
+            "name": "실버크리스 라운지",
+            "review": {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.8",
+                "bestRating": "5.0"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "박여행자"
+              }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.8,
+              "reviewCount": 1,
+              "bestRating": 5,
+              "worstRating": 1
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Airport",
+          "name": "히드로 공항",
+          "identifier": "LHR",
+          "containsPlace": {
+            "@type": "AirportLounge",
+            "name": "콩코드 룸",
+            "review": {
+              "@type": "Review",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "4.9",
+                "bestRating": "5.0"
+              },
+              "author": {
+                "@type": "Person",
+                "name": "최퍼스트"
+              }
+            },
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": 4.9,
+              "reviewCount": 1,
+              "bestRating": 5,
+              "worstRating": 1
+            }
+          }
+        }
+      }
+    ]
+  }
+}</script>
 
     <style>
         /* ===== Brutalist Avant-Garde System ===== */
